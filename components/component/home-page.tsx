@@ -1,18 +1,18 @@
 import { ExternalLink, GitBranchIcon, GitCommitIcon, GithubIcon } from "lucide-react"
 import Link from "next/link"
+import Head from 'next/head'
 
 export function HomePage() {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-background text-foreground">
-      <header className="px-4 lg:px-6 h-14 flex items-center border-b">
       <title>Резюме - Молокоедов Михаил</title>
+      <header className="px-4 lg:px-6 h-14 flex items-center border-b">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
           <span className="sr-only">Resume</span>
         </Link>
       </header>
       <main className="flex-1 py-12 md:py-24 lg:py-32">
-        
         <div className="container px-4 md:px-6">
           <div className="grid gap-10 md:grid-cols-[1fr_400px] md:gap-16">
             <div>
@@ -51,7 +51,7 @@ export function HomePage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <GithubIcon className="h-5 w-5" />
-                    <Link href="#" className="underline" prefetch={false}>
+                    <Link href="https://github.com/molokoedovmp" className="underline" prefetch={false}>
                       https://github.com/molokoedovmp
                     </Link>
                   </div>
@@ -141,7 +141,7 @@ export function HomePage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <ExternalLink className="h-5 w-5" />
-                    <Link href="https://github.com/molokoedovmp/consult-ver-2-.git" className="underline" prefetch={false}>
+                    <Link href="https://consult-ver-3.vercel.app" className="underline" prefetch={false}>
                       Ссылка на приложение
                     </Link>
                   </div>                  
