@@ -186,7 +186,7 @@ export function HomePage() {
   )
 }
 
-function GlobeIcon(props) {
+function GlobeIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -208,7 +208,7 @@ function GlobeIcon(props) {
 }
 
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -230,7 +230,7 @@ function LinkedinIcon(props) {
 }
 
 
-function MailIcon(props) {
+function MailIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -251,7 +251,7 @@ function MailIcon(props) {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -271,7 +271,7 @@ function MountainIcon(props) {
 }
 
 
-function PhoneIcon(props) {
+function PhoneIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
