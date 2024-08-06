@@ -92,8 +92,7 @@ export function HomePage() {
                   <h3 className="text-xl font-semibold">НИУ ВШЕ</h3>
                   <p className="text-muted-foreground">2021 - 2025</p>
                   <ul className="mt-2 space-y-2 text-muted-foreground">
-                    <li>Бакалавр. Факультет социально-экономических и компьютерных наук.</li>
-                    <li>Программная инженерия. </li>
+                    <li>Бакалавр, в настоящее время учусь на 4 курсе, специализация: программная инженерия</li>
                   </ul>
                 </div>
               </div>
