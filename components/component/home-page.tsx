@@ -85,6 +85,19 @@ export function HomePage() {
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
         <div className="container px-4 md:px-6">
           <div className="grid gap-10">
+          <div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Образование</h2>
+              <div className="mt-6 space-y-6">
+                <div>
+                  <h3 className="text-xl font-semibold">НИУ ВШЕ Пермь</h3>
+                  <p className="text-muted-foreground">2021 - 2025</p>
+                  <ul className="mt-2 space-y-2 text-muted-foreground">
+                    <li>Бакалавр. Факультет социально-экономических и компьютерных наук.</li>
+                    <li>Программная инженерия. </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             <div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Опыт работы</h2>
               <div className="mt-6 space-y-6">
