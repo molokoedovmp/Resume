@@ -89,7 +89,7 @@ export function HomePage() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Образование</h2>
               <div className="mt-6 space-y-6">
                 <div>
-                  <h3 className="text-xl font-semibold">НИУ ВШЕ Пермь</h3>
+                  <h3 className="text-xl font-semibold">НИУ ВШЕ</h3>
                   <p className="text-muted-foreground">2021 - 2025</p>
                   <ul className="mt-2 space-y-2 text-muted-foreground">
                     <li>Бакалавр. Факультет социально-экономических и компьютерных наук.</li>
@@ -102,7 +102,7 @@ export function HomePage() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Опыт работы</h2>
               <div className="mt-6 space-y-6">
                 <div>
-                  <h3 className="text-xl font-semibold">Стажировался в НИУ ВШЭ-Пермь, Лаборатория междисциплинарных эмпирических исследований</h3>
+                  <h3 className="text-xl font-semibold">Стажировался в НИУ ВШЭ, Лаборатория междисциплинарных эмпирических исследований</h3>
                   <p className="text-muted-foreground">Май 2024 - Июль 2024</p>
                   <ul className="mt-2 space-y-2 text-muted-foreground">
                     <li>Работал над проектом геоинформационное приложение, которое автоматизирует </li>
