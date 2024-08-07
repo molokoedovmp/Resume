@@ -29,7 +29,7 @@ export function HomePage() {
               </div>
                 <div>
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Молокоедов Михаил</h1>
-                  <h2 className="text-2xl font-medium text-muted-foreground">Программная инженерия, 20 лет</h2>
+                  <h2 className="text-2xl font-medium text-muted-foreground">НИУ ВШЕ Программная инженерия, 20 лет</h2>
                 </div>
               </div>
               <p className="mt-4 max-w-[600px] text-muted-foreground md:text-xl">
